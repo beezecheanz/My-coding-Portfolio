@@ -10,9 +10,78 @@ In class we looked into "random walkers", using Perlin noise and randomness to m
 In the session, we worked towards making interesting patterns and effects using these techniques. I mainly focused on using Perlin Noise over actual randomness.
 
 ### Simple Random Walker
+This was written in class, following along with a tutorial but changing things like variables and colours to my own preferences. This one makes a line of colurful dots slowly meander its way around the screen, leaving a faint trail behind it.
 
-(put example of code here >:D)
+```
+let xPos, yPos
+let xPrev, yPrev
+let numDirections=100
+let direction=0
+let step=10
 
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  xPos = width/2
+  yPos = height/2  
+  xPrev=xPos
+  yPrev=yPos
+  frameRate(30)
+}
+
+function draw() {
+  background(255, 7);
+
+  let x = random(0, 255)
+  let direction
+  let newDirection=floor(random(numDirections)) * x
+  let xStep=cos(newDirection * x * TWO_PI/numDirections) * step * sin(newDirection)
+  let yStep=sin(newDirection * TWO_PI/numDirections) * step
+  
+  xPrev=xPos
+  yPrev=yPos
+  xPos+=xStep
+  yPos+=yStep
+  
+  edges()
+  
+  //sets random colour each time dot is drawn
+  let a=random(100,255)
+  let b=random(1,200)
+  let c=random(100,255)
+  strokeWeight(10)
+  stroke(a, b, c)
+  fill(a,b,c)
+  
+  ellipse(xPos, yPos, 1)
+  
+  
+}
+
+//stops walker from going off screen
+function edges(){
+
+  if (xPos<0){
+     xPos=width-1
+     xPrev=xPos
+  }
+  
+   if (xPos>width){
+     xPos=1
+     xPrev=xPos
+   }
+  
+     if (yPos<0){
+     yPos=height-1
+     yPrev=yPos
+     }
+  
+   if (yPos>height){
+     yPos=1
+     yPrev=yPos
+   }
+}
+```
 
 ### More Complex Random Walker
 

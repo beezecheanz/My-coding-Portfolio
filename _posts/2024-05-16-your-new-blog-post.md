@@ -1,7 +1,14 @@
-## flying bee
+##Simple Flying Bee
 
-A bee flying around flowers.
+In class we looked into "random walkers", using Perlin noise to make things move around semi randomly in an area.
+In the session, we worked towards making interesting patterns and effects using this technique.
 
+### H3 Simple Random Walker
+
+I then went away and decided to use this movement to make a scene of a bee flying around in some flowers. I used this as a way to practice functions, as I used them to create the flowers, instead of individually making each flower.
+
+
+### H3 Bee Flying
 ```
 let c1,c2;
 
@@ -69,6 +76,7 @@ function bee(x,z,y){
   pop()
   
 }
+
 
 function flowers(a,b,c){
 

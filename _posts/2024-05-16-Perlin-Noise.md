@@ -1,4 +1,4 @@
-## Perlin Noise
+# Perlin Noise
 
 In class we looked into "random walkers", using Perlin noise and randomness to make things move around in an area.
 In the session, we worked towards making interesting patterns and effects using this technique.

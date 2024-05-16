@@ -1,13 +1,18 @@
 # Perlin Noise
 
 In class we looked into "random walkers", using Perlin noise and randomness to make things move around in an area.
-In the session, we worked towards making interesting patterns and effects using this technique.
+In the session, we worked towards making interesting patterns and effects using these techniques. I mainly focused on using Perlin Noise over actual randomness.
 
 ### Simple Random Walker
 
 (put example of code here >:D)
 
-I then went away and decided to use this movement to make a scene of a bee flying around in some flowers. I used this as a way to practice functions, as I used them to create the flowers, instead of individually making each flower. 
+
+### More Complex Random Walker
+
+(put example of more interesting one here)
+
+I then went away and decided to use this movement to make a scene of a bee flying around in some flowers as I thought that the way Perlin Noise makes an object move was often quite similar to how insects fly. I also used this as a way to practice functions, as I used them to create the flowers, instead of individually making each flower. 
 
 ### Bee Flying
 ```

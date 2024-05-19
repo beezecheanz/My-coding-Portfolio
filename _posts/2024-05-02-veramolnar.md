@@ -62,7 +62,10 @@ function drawTile(across, down, step){
 Once I had gotten the hang of making repetition and variation work together to make patterns, I made a piece similar to Vera's, but with a bit more freedom than the one where I just attempted to recreate her pieces. I decided to incorporate movement and colour changing into it to see what it looked like, as her works were mainly quite plain looking and I wanted to see what it would look like when mixing the simple style with a more visually noisy style.
 I think that it turned out quite well, although I would like if it looped better, but I found it difficult to get the colour timings to line up so I settled with the effect it currently gives.
 
+
+[rainbow_rotating_squares_2024_05_19_13_16_32.zip](https://github.com/beezecheanz/My-coding-Portfolio/files/15369534/rainbow_rotating_squares_2024_05_19_13_16_32.zip)
 ```
+
 let step
 let numAcross=10
 let col = 50;

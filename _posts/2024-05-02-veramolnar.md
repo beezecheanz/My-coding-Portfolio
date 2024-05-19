@@ -9,9 +9,12 @@ Date: 2024-05-02
 In class, we looked at an artist called [Vera Molnar](https://ropac.net/artists/231-vera-molnar/#), who is known as a pioneer in the field of generative art, often using repetiton to make interesting effects.
 
 ### Examples of her work
+![vera molnar piece 1, black and white squares](https://dam.org/museum/artists_ui/artists/molnar-vera/des-ordres/#lightbox[rel-13052-1738219330]-4)
+![vera molnar piece 2, square scribbles](https://dam.org/museum/artists_ui/artists/molnar-vera/works-from-the-1980s/#lightbox[rel-12514-206288807]-5)
+![vera molnar piece 3, quiggles](https://dam.org/museum/artists_ui/artists/molnar-vera/interruptions/#lightbox[rel-14884-657881580]-1)
 
 ## Recreating her works
-We were tasked with thinking about how we would go about recreating some of the effects in her works and shown how to replicate the looks of her [classic pieces involving black and white squares](https://dam.org/museum/artists_ui/artists/molnar-vera/des-ordres/#lightbox[rel-13052-1738219330]-4).
+We were tasked with thinking about how we would go about recreating some of the effects in her works and shown how to replicate the looks of her [classic pieces involving black and white squares](https://dam.org/museum/artists_ui/artists/molnar-vera/des-ordres/#lightbox[rel-13052-1738219330]-4) , which are shown above.
 We created this code in class, following along with a demo, but changing things like variables to fit what we wanted the creation to look like.
 
 ```

@@ -6,7 +6,7 @@ Date: 2024-05-02
 ## Vera Molnar
 
 ### Who is Vera Molnar
-In class, we looked at an artist called [Vera Molnar](https://ropac.net/artists/231-vera-molnar/#), who is known as a pioneer in the field of generative art, often using repetiton to make interesting effects.
+In class, we looked at an artist called [Vera Molnar](https://ropac.net/artists/231-vera-molnar/#), who is known as a pioneer in the field of generative art, often using repetiton to make interesting effects. Her pieces often include limited colours, usually only consisting of different types of greys, which draw more attention to the patters being created as there isn't much else going on visually.
 
 ### Examples of her work
 ![vera molnar piece 1, black and white squares](https://dam.org/museum/wp-content/uploads/2020/09/Molnar1974DesOrdres.jpg)
@@ -19,7 +19,7 @@ We created this code in class, following along with a demo, but changing things 
 
 ```
 let step;
-let numAcross=5; //amount of tiles across
+let numAcross=17; //amount of tiles across
 
 function setup() {
   createCanvas(500, 500);

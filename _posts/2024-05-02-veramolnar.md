@@ -6,14 +6,54 @@ Date: 2024-05-02
 ## Vera Molnar
 
 ### Who is Vera Molnar
-In class, we looked at an artist called Vera Molnar, who is known as a pioneer in the field of generative art, often using repetiton to make interesting effects.
+In class, we looked at an artist called [Vera Molnar](https://ropac.net/artists/231-vera-molnar/#), who is known as a pioneer in the field of generative art, often using repetiton to make interesting effects.
 
 ### Examples of her work
 
 ## Recreating her works
-We were tasked with thinking about how we would go about recreating some of the effects in her works. I decided to recreate her well known piece that consists of squares within squares, each having a slightly different tone.
+We were tasked with thinking about how we would go about recreating some of the effects in her works and shown how to replicate the looks of her [classic pieces involving black and white squares](https://dam.org/museum/artists_ui/artists/molnar-vera/des-ordres/#lightbox[rel-13052-1738219330]-4).
+We created this code in class, following along with a demo, but changing things like variables to fit what we wanted the creation to look like.
 
-(put code here)
+```
+let step;
+let numAcross=5; //amount of tiles across
+
+function setup() {
+  createCanvas(500, 500);
+  step=width/numAcross;
+  frameRate(1); //so that it doesn't run too fast
+}
+
+function draw() {
+  background(220);
+  
+  //goes across the amount decided by numAcross
+  //then goes down one and starts again
+  //until it has gone down the amount that it goes across
+  for(let j=0; j<numAcross; j++){
+    for(let i=0; i<numAcross; i++){
+      drawTile(i,j,step)
+    } 
+  }
+}
+
+function drawTile(across, down, step){
+  let numSquares=10 //number of squares inside
+  push()
+  translate((across+0.5)*step, (down+0.5)*step)
+  rectMode(CENTER) //draws squares from their centre
+  for(let k=numSquares-1; k>=0; k--){
+    let r=random(10)
+    fill(random(40,150)) //fill with random grey
+    if(r<5){
+      rect(0,0,step*k/numSquares)
+    }
+  }
+  
+  pop()
+}
+```
+
 
 ## Making my own works like Molnar's
 Once I had gotten the hang of making repetition and variation work together to make patterns, I made a piece similar to Vera's, but with a bit more freedom than the one where I just attempted to recreate her pieces. I decided to incorporate movement and colour changing into it to see what it looked like, as her works were mainly quite plain looking and I wanted to see what it would look like when mixing the simple style with a more visually noisy style.

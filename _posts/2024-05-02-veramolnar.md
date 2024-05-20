@@ -14,7 +14,7 @@ In class, we looked at an artist called [Vera Molnar](https://ropac.net/artists/
 ![vera molnar piece 3, squiggles](https://dam.org/museum/wp-content/uploads/2021/07/MolnarInterruptions28x28cm1968-69.jpg)
 
 ## Recreating her works
-We were tasked with thinking about how we would go about recreating some of the effects in her works and shown how to replicate the looks of her [classic pieces involving black and white squares](https://dam.org/museum/artists_ui/artists/molnar-vera/des-ordres/#lightbox[rel-13052-1738219330]-4) , which are shown above.
+We were tasked with thinking about how we would go about recreating some of the effects in her works and shown how to replicate the looks of her [classic pieces involving black and white squares](https://dam.org/museum/artists_ui/artists/molnar-vera/des-ordres/#lightbox[rel-13052-1738219330]-4) , which are shown in the examples of her work above.
 We created this code in class, following along with a demo, but changing things like variables to fit what we wanted the creation to look like.
 
 ```

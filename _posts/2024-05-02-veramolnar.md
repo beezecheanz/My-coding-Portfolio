@@ -57,6 +57,23 @@ function drawTile(across, down, step){
 }
 ```
 
+## Experimentation
+I then went and found [this YouTube tutorial](https://www.youtube.com/watch?v=kjB_3pWmTR8) to create a similar piece of code, this time with offset quadrilaterals of different colours. I did one test where I precisely followed the tutorial, then I played around with changing variables to make interesting results. These are there results.
+
+### Exactly following tutorial
+Here is the result I got from following the tutorial
+![squares](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/0d86518f-e89d-4eae-9d61-1c12af51eba1)
+
+### Changing colour
+Here are the results from where I tried to make it look more appealing to me, by changing the colour scheme to be more coherent and increasing the number of cells so that they begin to overlap, which I think looked quite interesting.
+![overlappingsquares](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/26f109c1-ff16-4f28-8d6a-dc7935c83440)
+
+### Changing everything
+I then just went through and changed variables until it created interesting effects.
+![booksqaure](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/00fa134c-6801-4e7e-8ec3-7147da0fb6e2)
+![crazysquares](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/b85d2a6d-169d-4171-9787-c1cd7c6612f8)
+![squigglesquare](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/94994516-dd5d-4f67-b515-9089d7284713)
+
 
 ## Making my own works like Molnar's
 Once I had gotten the hang of making repetition and variation work together to make patterns, I made a piece similar to Vera's, but with a bit more freedom than the one where I just attempted to recreate her pieces. I decided to incorporate movement and colour changing into it to see what it looked like, as her works were mainly quite plain looking and I wanted to see what it would look like when mixing the simple style with a more visually noisy style.

@@ -11,6 +11,7 @@ In the session, we worked towards making interesting patterns and effects using 
 
 ### Simple Random Walker
 This was written in class, following along with a tutorial but changing things like variables and colours to my own preferences. This one makes a line of colurful dots slowly meander its way around the screen, leaving a faint trail behind it.
+![download (1)](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/49698df0-c897-4c85-9184-aa5dc4d72a50)
 
 ```
 let xPos, yPos

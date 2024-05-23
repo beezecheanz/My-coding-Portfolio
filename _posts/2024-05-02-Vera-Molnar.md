@@ -83,6 +83,8 @@ I think that it turned out quite well, although I would like if it looped better
 
 
 [rainbow_rotating_squares_2024_05_19_13_16_32.zip](https://github.com/beezecheanz/My-coding-Portfolio/files/15369534/rainbow_rotating_squares_2024_05_19_13_16_32.zip)
+![rainbowsquares](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/a26aedc1-a01d-4fac-9f45-7eb96d4276b4)
+
 ```
 
 let step

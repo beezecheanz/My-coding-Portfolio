@@ -17,13 +17,6 @@ colours and making it so that the colours slowly change over time.
 I myself then added a few extra features, such as making the screen flash when the firework "explodes".
 ![fireworkshow](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/25128b58-c6df-4b9f-9f39-85020e985c2b)
 
-#### Experimental Results
-I then experimented with changing variables in an attempt to make interesting results. I started with changing the background to white and opaque, so that the fireworks would stay on screen after having gone off. This made an interesting effect that looked like paint spattered across the page.
-![loadsafirewrosk](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/936ef4bb-851d-4fff-8bfe-ba2a222dbc56)
-
-My next experiment was to see if I could make it so that multiple fireworks would spawn at the same time. I used the technique of just copying and pasting the part of the code that makes a firework and changing the variables so the colour and location were different. I could have looked into doing this in a more compact way but I thought that just for seeing how it looks, this way of doing it was good enough.
-![download (2)](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/34243ac4-ff87-461f-a7f1-6cdf117b72b3)
-
 ```
 let firework
 let r
@@ -114,6 +107,13 @@ class Particle{ //properties of the particles
   }
 }
 ```
+
+#### Experimental Results
+I then experimented with changing variables in an attempt to make interesting results. I started with changing the background to white and opaque, so that the fireworks would stay on screen after having gone off. This made an interesting effect that looked like paint spattered across the page.
+![loadsafirewrosk](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/936ef4bb-851d-4fff-8bfe-ba2a222dbc56)
+
+My next experiment was to see if I could make it so that multiple fireworks would spawn at the same time. I used the technique of just copying and pasting the part of the code that makes a firework and changing the variables so the colour and location were different. I could have looked into doing this in a more compact way but I thought that just for seeing how it looks, this way of doing it was good enough.
+![download (2)](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/34243ac4-ff87-461f-a7f1-6cdf117b72b3)
 
 
 ### Blob Game

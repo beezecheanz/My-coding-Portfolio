@@ -17,6 +17,8 @@ In class, we looked at an artist called [Vera Molnar](https://ropac.net/artists/
 We were tasked with thinking about how we would go about recreating some of the effects in her works and shown how to replicate the looks of her [classic pieces involving black and white squares](https://dam.org/museum/artists_ui/artists/molnar-vera/des-ordres/#lightbox[rel-13052-1738219330]-4) , which are shown in the examples of her work above.
 We created this code in class, following along with a demo, but changing things like variables to fit what we wanted the creation to look like.
 
+![veramolnarsquaresexample](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/425ef421-040b-4973-9ccc-ef48b856a210)
+
 ```
 let step;
 let numAcross=17; //amount of tiles across

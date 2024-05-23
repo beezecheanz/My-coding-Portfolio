@@ -90,8 +90,7 @@ function edges(){
 
 ### Bee Flying
 I then went away and decided to use this movement to make a scene of a bee flying around in some flowers as I thought that the way Perlin Noise makes an object move was often quite similar to how insects fly. I also used this as a way to practice functions, as I used them to create the flowers, instead of individually making each flower. 
-
-[bee_flying2024_05_19_13_13_46.zip](https://github.com/beezecheanz/My-coding-Portfolio/files/15369518/bee_flying2024_05_19_13_13_46.zip)
+![beeee](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/d6180735-6523-4750-a0c5-59820ddf6c09)
 ```
 let c1,c2;
 

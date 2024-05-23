@@ -7,7 +7,7 @@ date:   2024-05-16 22:17:57
 # Perlin Noise
 
 In class we looked into "random walkers", using Perlin noise and randomness to make things move around in an area.
-In the session, we worked towards making interesting patterns and effects using these techniques. I mainly focused on using Perlin Noise over actual randomness.
+In the session, we worked towards making interesting patterns and effects using these techniques. I mainly focused on using Perlin Noise over actual randomness as it is easier to make something look nice with noise. This is because randomness can be slightly overwhelming to a viewer and is harder to make like a creature wandering around and making decisions.
 
 ### Simple Random Walker
 This was written in class, following along with a tutorial but changing things like variables and colours to my own preferences. This one makes a line of colurful dots slowly meander its way around the screen, leaving a faint trail behind it.

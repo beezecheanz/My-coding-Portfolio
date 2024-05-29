@@ -1,8 +1,3 @@
----
-Title: Interaction
-Date: 2024-05-20
----
-
 ## Interaction
 
 ### First Tests
@@ -115,103 +110,17 @@ I then experimented with changing variables in an attempt to make interesting re
 My next experiment was to see if I could make it so that multiple fireworks would spawn at the same time. I used the technique of just copying and pasting the part of the code that makes a firework and changing the variables so the colour and location were different. I could have looked into doing this in a more compact way but I thought that just for seeing how it looks, this way of doing it was good enough.
 ![download (2)](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/34243ac4-ff87-461f-a7f1-6cdf117b72b3)
 
+I then added a feature where, if the user drags the mouse after clicking, the firework explodes somewhat in the direction of the drag, making it much more interactive and interesting to play with.
+[Interactive firework sketch](https://editor.p5js.org/beezecheanz/sketches/R7d7PKrej)
+
 
 ### Blob Game
 In class, we also went further with this simple interaction of clicking the mouse, and made a simple game,
 where there are blobs on screen that can be clicked on. I went away and added a a few features to make it more game like,
 including a score that increases with each successful click and a timer so the player can attempt to get a high score.
-I also added easing on the movement of the blobs, I learnt how to do that from a [website I found](https://cratecode.com/info/p5js-easing-functions).
-
-```
-let clickBlob1, clickBlob2;
-let score = 0;
-let ease = 0.2; //how potent the easing is
-let timer = 10;
-
-function setup() {
-  createCanvas(400, 400);
-  //creating the blobs in their starting places
-  clickBlob1=new clickBlob(200,100,50)
-  clickBlob2=new clickBlob(200,300,50)
-}
-
-function draw() {
-  background(220);
-  clickBlob1.update()
-  clickBlob2.update()
-  clickBlob1.show()
-  clickBlob2.show()
-  
-  text(score, 20,25)
-  text(timer, 50, 25)
-  
-  //if a second has passed
-  if (frameCount % 60 == 0 && timer > 0) {
-    timer --;
-  }
-  if (timer == 0) {
-    
-    push() //so it doesn't change the numbers at the top
-    textSize(35);
-    noStroke();
-    fill(230,50,50)
-    text("GAME OVER", 100, 200);
-    text(score, 200, 250)
-    pop()
-  }
-  
-}
-
-function mousePressed(){ //when mouse is clicked
-  clickBlob1.click()
-  clickBlob2.click()
-}
-
-class clickBlob{
-  constructor(x,y,s){
-    this.x=x
-    this.y=y 
-    this.s=s
-    this.hover=false
-    
-    //where they are being eased to
-    this.targetY = y;
-    this.targetX = x;
-  }
-  
-  click(){
-    if(this.hover){     
-      //getting random place for them to go to
-      this.targetX=random(width)
-      this.targetY=random(height)
-      score++
-    }
-  }
-  
-  show(){
-    stroke(0)
-    fill(128)
-    if(this.hover){
-      fill(0,200,100)
-    }
-    ellipse(this.x,this.y,this.s)
-  }
-  
-  update(){
-    let d=dist(this.x,this.y,mouseX,mouseY)
-    this.hover=d<this.s/2
-    
-    // easeing towards the target positions
-    this.x = lerp(this.x, this.targetX, ease);
-    this.y = lerp(this.y, this.targetY, ease);
-    
-    if (timer == 0) {
-      this.x=10000;
-      this.y=10000;
-    }
-  }
-}
-```
+I also added easing on the movement of the blobs as I thought that it made the game easier to follow and just looked nicer generally, I learnt how to do that from a [website I found](https://cratecode.com/info/p5js-easing-functions).
+I added feedback when a blob is clicked by adding [a sound](https://freesound.org/people/fordps3/sounds/186669/) that plays after a successful click. I used [this sketch](https://editor.p5js.org/k1518155@students.katyisd.org/sketches/B1z411R3X) as an example to figure out how to implement it.
+[click blob sketch](https://editor.p5js.org/beezecheanz/sketches/y6_r1Pqhn)
 
 ### Ink Blobs
 We were introduced to [The Coding Train]((https://www.youtube.com/@TheCodingTrain), who makes video tutorials on different techniques that can be used in coding. I followed the [marbling algorithm tutorial](https://thecodingtrain.com/challenges/183-mathematical-marbling), that shows you how to make interesting marbled effects with "ink blobs" on a canvas. Thesse are the results I got from following the tutorial and looking at the code examples provided. I found the calculations kind of complicated so I basically [copied them line for line](https://editor.p5js.org/codingtrain/sketches/HtEtm1vii), however, for the actual creation of the blobs, I changed a few things while writing it. For example, I changed the colour palette to be a more muted one, as I thought it would look nice. I also changed the speed at which the blobs grow, as I thought it was more fun to play with when it goes faster.

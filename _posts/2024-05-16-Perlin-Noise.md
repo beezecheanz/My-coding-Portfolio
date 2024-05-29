@@ -1,9 +1,3 @@
----
-layout: post
-title:  "Perlin Noise"
-date:   2024-05-16 22:17:57 
----
-
 # Perlin Noise
 
 In class we looked into "random walkers", using Perlin noise and randomness to make things move around in an area.

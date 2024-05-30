@@ -71,9 +71,8 @@ I then just went through and changed variables until it created interesting effe
 ![crazysquares](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/b85d2a6d-169d-4171-9787-c1cd7c6612f8)
 ![squigglesquare](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/94994516-dd5d-4f67-b515-9089d7284713)
 
-
 ## Making my own works like Molnar's
 Once I had gotten the hang of making repetition and variation work together to make patterns, I made a piece similar to Vera's, but with a bit more freedom than the one where I just attempted to recreate her pieces. I decided to incorporate movement and colour changing into it to see what it looked like, as her works were mainly quite plain looking and I wanted to see what it would look like when mixing the simple style with a more visually noisy style.
-
-![rainnbowsqures](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/674b7d41-c6e0-4f9e-8739-28c4b4f35138)
 [Rainbow Squares Sketch](https://editor.p5js.org/beezecheanz/sketches/mzh8PAEoo)
+![rainnbowsqures](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/674b7d41-c6e0-4f9e-8739-28c4b4f35138)
+

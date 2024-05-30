@@ -7,8 +7,7 @@ In class, we began a piece that would create a firework when the user clicked, w
 <img width="150" alt="thumbnail_image" src="https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/72338be0-2706-4ed7-a2e6-3a24b2621d31">
 
 #### Additional Result
-To push this idea further, a classmate and I added to this with randomising the 
-colours and making it so that the colours slowly change over time.
+To push this idea further, a classmate and I added to this with randomising the colours and making it so that the colours slowly change over time.
 I myself then added a few extra features, such as making the screen flash when the firework "explodes".
 ![fireworkshow](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/25128b58-c6df-4b9f-9f39-85020e985c2b)
 
@@ -110,5 +109,8 @@ I then experimented with changing variables in an attempt to make interesting re
 My next experiment was to see if I could make it so that multiple fireworks would spawn at the same time. I used the technique of just copying and pasting the part of the code that makes a firework and changing the variables so the colour and location were different. I could have looked into doing this in a more compact way but I thought that just for seeing how it looks, this way of doing it was good enough.
 ![download (2)](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/34243ac4-ff87-461f-a7f1-6cdf117b72b3)
 
-I then added a feature where, if the user drags the mouse after clicking, the firework explodes somewhat in the direction of the drag, making it much more interactive and interesting to play with.
+#### Final Result
+I then added a feature where, if the user drags the mouse after clicking, the firework explodes somewhat in the direction of the drag, making it much more interactive and interesting to play with. I did this by looking at where the user initially clicks and then in which direction their mouse moves, then made it so that the direction that the fireworks explode in is, on average, in that direction.
 [Interactive firework sketch](https://editor.p5js.org/beezecheanz/sketches/R7d7PKrej)
+![explode](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/2b7160c2-8656-4b4d-93da-b7b8f7b41a48)
+

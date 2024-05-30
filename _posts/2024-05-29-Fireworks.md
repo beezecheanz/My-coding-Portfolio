@@ -7,7 +7,7 @@ In class, we began a piece that would create a firework when the user clicked, w
 <img width="150" alt="thumbnail_image" src="https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/72338be0-2706-4ed7-a2e6-3a24b2621d31">
 
 #### Additional Result
-To push this idea further, a classmate and I added to this with randomising the colours and making it so that the colours slowly change over time.
+A classmate and I wanted to push this idea further, adding to this with randomising the colours and making it so that the colours slowly change over time. We wanted to make the fireworks more interesting and varied, and have more realism to them.
 I myself then added a few extra features, such as making the screen flash when the firework "explodes".
 ![fireworkshow](https://github.com/beezecheanz/My-coding-Portfolio/assets/83460384/25128b58-c6df-4b9f-9f39-85020e985c2b)
 
